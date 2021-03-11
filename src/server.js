@@ -1,5 +1,8 @@
 import express from "express";
 import path from "path";
+import dotenv from "dotenv";
+dotenv.config();
+import connect from "../db";
 
 const PORT = 7000;
 const app = express();
@@ -7,6 +10,7 @@ const app = express();
 app.set("view engine", "pug");
 
 app.use(express.static(path.join(__dirname, "/assets")));
+connect();
 
 app.get("/", (req, res) => {
   res.render("main");
