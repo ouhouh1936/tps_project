@@ -3,19 +3,22 @@ import path from "path";
 import dotenv from "dotenv";
 dotenv.config();
 import connect from "../db";
+import morgan from "morgan";
 
-const PORT = 7000;
+const PORT = process.env.PORT;
 const app = express();
 
 app.set("view engine", "pug");
+
+app.use(morgan("dev"));
 
 app.use(express.static(path.join(__dirname, "/assets")));
 connect();
 
 app.get("/", (req, res) => {
-  res.render("main");
+  res.render("./layouts/main");
 });
 
 app.listen(PORT, () => {
-  console.log(`${PORT} SERVER START`);
+  console.log(`🐶🐶🐶  ${PORT} SERVER START  🐶🐶🐶`);
 });
