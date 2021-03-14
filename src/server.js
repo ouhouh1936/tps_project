@@ -21,6 +21,9 @@ app.get("/", (req, res) => {
 app.get("/login", (req, res) => {
   res.render("./screens/login");
 });
+app.get("/f_post", (req, res) => {
+  res.render("./screens/f_post");
+});
 
 app.listen(PORT, () => {
   console.log(`🐶🐶🐶  ${PORT} SERVER START  🐶🐶🐶`);
