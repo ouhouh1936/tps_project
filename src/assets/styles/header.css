@@ -3,8 +3,22 @@
   height: 10vh;
   background-color: #b0c4de;
 }
+.header_title {
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  margin-top: 20px;
+}
 .header_text {
-  background-color: #b0c4de;
-  align-items: center;
-  justify-content: center;
+  width: 220px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 900px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+}
+.header_icon1 {
+  width: 10px;
+  height: 10px;
+  background-image: url("https://www.flaticon.com/svg/vstatic/svg/846/846551.svg?token=exp=1615711480~hmac=410e21599ec4a87f4689704ec3247ff1");
 }
