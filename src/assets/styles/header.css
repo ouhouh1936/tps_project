@@ -8,17 +8,12 @@
   font-size: 40px;
   margin-top: 20px;
 }
-.header_text {
+.header .header_text {
   width: 220px;
   height: 30px;
-  margin-top: 20px;
-  margin-left: 900px;
+  margin-top: 2%;
+  margin-left: 40%;
   border: none;
   outline: none;
   border-radius: 2px;
-}
-.header_icon1 {
-  width: 10px;
-  height: 10px;
-  background-image: url("https://www.flaticon.com/svg/vstatic/svg/846/846551.svg?token=exp=1615711480~hmac=410e21599ec4a87f4689704ec3247ff1");
 }
