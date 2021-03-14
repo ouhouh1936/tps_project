@@ -1,7 +1,26 @@
-.boardSearch {
-    width: 100%;
-    height: 80px;
+.loging {
+  width: 100%;
+  height: 100vh;
 
-    display: flex;
+  display: flex;
+  flex-direction: row;
+}
+
+.loginSearch{
+  width: 50%;
+  height: 100vh;
+
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: blue;
+}
+
+.login {
+  width: 50%;
+  height: 100vh;
+
+  background-color: darkblue;
 }
