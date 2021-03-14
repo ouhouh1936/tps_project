@@ -1,7 +1,12 @@
+.app {
+  width: 100%;
+  height: 100vh;
+  background-color: #040c14;
+}
 .header {
   width: 100%;
   height: 10vh;
-  background-color: #b0c4de;
+  background-color: #e8f7fd;
 }
 .header_title {
   font-family: "Pacifico", cursive;
@@ -16,4 +21,7 @@
   border: none;
   outline: none;
   border-radius: 2px;
+}
+.footer {
+  color: #fff;
 }

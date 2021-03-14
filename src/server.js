@@ -25,6 +25,10 @@ app.get("/f_post", (req, res) => {
   res.render("./screens/f_post");
 });
 
+app.get("/home", (req, res) => {
+  res.render("./screens/home");
+});
+
 app.listen(PORT, () => {
   console.log(`🐶🐶🐶  ${PORT} SERVER START  🐶🐶🐶`);
 });
