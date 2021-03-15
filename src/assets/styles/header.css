@@ -1,8 +1,3 @@
-.app {
-  width: 100%;
-  height: 100vh;
-  background-color: #040c14;
-}
 .header {
   width: 100%;
   height: 10vh;
@@ -22,6 +17,4 @@
   outline: none;
   border-radius: 2px;
 }
-.footer {
-  color: #fff;
-}
+
