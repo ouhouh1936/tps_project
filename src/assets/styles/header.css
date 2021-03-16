@@ -7,6 +7,7 @@
   font-family: "Pacifico", cursive;
   font-size: 40px;
   margin-top: 20px;
+  color: #040C14;
 }
 .header .header_text {
   width: 220px;
@@ -16,13 +17,20 @@
   border: none;
   outline: none;
   border-radius: 2px;
+  
 }
 
 .footer{
-  margin-left: 70px;
-  margin-top: 10%;
+  
+  margin-top: 5%; 
   width: 100%;
   height: 30vh;
   color: #b2bec3;
+  background-color:  #040C14;
+
+}
+
+.footer h2{
+  margin-left: 10%;
 
 }
