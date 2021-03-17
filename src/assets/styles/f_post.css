@@ -6,9 +6,5 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.friendposts .friendposts__col {
-  width: 10%;
-  height: 20%;
+  background-color: #e8f7fd;
 }
