@@ -28,6 +28,9 @@ app.get("/f_post", (req, res) => {
 app.get("/home", (req, res) => {
   res.render("./screens/home");
 });
+app.get("/my", (req, res) => {
+  res.render("./screens/my");
+});
 
 app.listen(PORT, () => {
   console.log(`🐶🐶🐶  ${PORT} SERVER START  🐶🐶🐶`);
