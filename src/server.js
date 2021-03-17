@@ -26,7 +26,7 @@ app.get("/f_post", (req, res) => {
 });
 
 app.get("/home", (req, res) => {
-  res.render("./screens/home");
+  res.render("screens/home");
 });
 
 app.listen(PORT, () => {
