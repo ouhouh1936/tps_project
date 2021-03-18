@@ -1,14 +1,7 @@
-doctype html
-html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(http-equiv="X-UA-Compatible", content="IE=edge")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Document
-        link(rel="stylesheet", href="/styles/styles.css")
-    body 
-    
-        .friendposts
-            button.friendposts__col 좋아요
-            button.friendposts__col 댓글
-            button.friendposts__col 보내기   
+extends ../layouts/main.pug
+
+block content
+    .f_post
+        button.f_post__col 좋아요
+        button.f_post__col 댓글
+        button.f_post__col 보내기
