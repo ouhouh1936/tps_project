@@ -18,8 +18,8 @@ connect();
 app.get("/", (req, res) => {
   res.render("./layouts/main");
 });
-app.get("/login", (req, res) => {
-  res.render("./screens/login");
+app.get("/sign", (req, res) => {
+  res.render("./screens/sign");
 });
 app.get("/f_post", (req, res) => {
   res.render("./screens/f_post");

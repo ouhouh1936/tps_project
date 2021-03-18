@@ -19,9 +19,12 @@
 
   display: flex;
   flex-direction: column;
-  background-color: #f7f1e3;
+  background-color: #eee6c4;
   align-items: center;
   justify-content: center;
+}
+.login_text {
+  font-size: 44px;
 }
 
 .loginBtn {
@@ -39,9 +42,12 @@
 
   outline: none;
   margin-top: 3%;
+  margin-bottom: 10px;
+  transition: 0.7s;
 }
 
 .login__btn {
+  font-size: 18px;
   margin-top: 2%;
   width: 42%;
   height: 9%;
