@@ -18,8 +18,9 @@ connect();
 app.get("/", (req, res) => {
   res.render("./layouts/main");
 });
-app.get("/sign", (req, res) => {
-  res.render("./screens/sign");
+
+app.get("/signin", (req, res) => {
+  res.render("./screens/signIn");
 });
 app.get("/f_post", (req, res) => {
   res.render("./screens/f_post");
@@ -28,10 +29,13 @@ app.get("/f_post", (req, res) => {
 app.get("/home", (req, res) => {
   res.render("screens/home");
 });
+<<<<<<< HEAD
+=======
 
 app.get("/my", (req, res) => {
   res.render("./screens/my");
 });
+>>>>>>> b979beb630da8708d76b423b2af376d526079cba
 
 app.get("/firend", (req, res) => {
   res.render("./screens/firend");
