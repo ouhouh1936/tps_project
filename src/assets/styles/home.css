@@ -1,6 +1,6 @@
 .home_post {
   width: 100%;
-  height: 100vh;
+  height: 170vh;
   display: flex;
   flex-direction: row;
 }
@@ -9,7 +9,7 @@
   height: 100vh;
 }
 .story {
-  width: 80%;
+  width: 68%;
   height: 20vh;
 
   background-color: #e8f7fd;
@@ -21,6 +21,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 
 .story_img {
@@ -31,18 +32,34 @@
   border-radius: 50%;
   background-size: cover;
   cursor: pointer;
-  margin-left: 2%;
+  margin-left: 20px;
 }
 .side {
   width: 40%;
-  height: 70vh;
-  margin-right: 10%;
-  margin-top: 10%;
-  background-color: blue;
+  height: 80vh;
+  background-color: #e8f7fd;
+  border-radius: 5px;
+  box-shadow: 2px 3px 4px gray;
+
+  margin-top: 5%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
 }
 
+.side_img {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXx9TVaNO4LYXJv-f8sytA7MCFkB40HZrRVg&usqp=CAU");
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-size: cover;
+  cursor: pointer;
+  margin-left: 2%;
+  display: flex;
+}
 .main {
-  width: 80%;
+  width: 70%;
   height: 70vh;
 
   display: flex;
