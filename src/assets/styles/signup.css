@@ -1,0 +1,25 @@
+.signuping {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.signup {
+    width: 50%;
+    height: 100vh;
+
+    background-color: blue;
+
+}
+
+.signupSearch {
+    width: 50%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

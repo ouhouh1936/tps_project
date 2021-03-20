@@ -29,6 +29,13 @@ app.get("/f_post", (req, res) => {
 app.get("/home", (req, res) => {
   res.render("screens/home");
 });
+<<<<<<< HEAD
+=======
+
+app.get("/my", (req, res) => {
+  res.render("./screens/my");
+});
+>>>>>>> 647a5ca9d9d387c9ca85632a605508270a919cf5
 
 app.get("/firend", (req, res) => {
   res.render("./screens/firend");
