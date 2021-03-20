@@ -29,17 +29,10 @@ app.get("/f_post", (req, res) => {
 app.get("/home", (req, res) => {
   res.render("screens/home");
 });
-<<<<<<< HEAD
-
-app.get("/home", (req, res) => {
-  res.render("./scree/video");
-});
 
 app.get("/my", (req, res) => {
-  res.render("./screens/my");
+  res.render("screens/my");
 });
-=======
->>>>>>> 31630dff32c106a7df441bfe02997afca580d7a6
 
 app.get("/firend", (req, res) => {
   res.render("screens/firend");
