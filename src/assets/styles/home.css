@@ -9,19 +9,17 @@
   height: 100vh;
 }
 .story {
-  width: 68%;
+  width: 60%;
   height: 20vh;
+  border: 0.1px solid grey;
 
-  background-color: #e8f7fd;
   border-radius: 5px;
-  box-shadow: 2px 3px 4px gray;
 
-  margin-top: 5%;
+  margin-top: 10%;
   margin-left: 10%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
 }
 
 .story_img {
@@ -36,7 +34,7 @@
 }
 
 .main {
-  width: 70%;
+  width: 60%;
   height: 70vh;
 
   display: flex;
@@ -84,15 +82,16 @@
   cursor: pointer;
 }
 .side {
-  width: 40%;
+  width: 20%;
   height: 80vh;
-  background-color: #e8f7fd;
-  border-radius: 5px;
-  box-shadow: 2px 3px 4px gray;
 
-  margin-top: 5%;
-  margin-left: 10%;
+  margin-top: 10%;
   margin-right: 10%;
+  margin-left: 70%;
+
+  border: 0.1px solid grey;
+  border-radius: 5px;
+  position: fixed;
 
   display: flex;
   flex-direction: column;
@@ -108,4 +107,5 @@
   cursor: pointer;
   margin-left: 2%;
   display: flex;
+  margin: 10px;
 }
