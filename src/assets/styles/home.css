@@ -12,6 +12,7 @@
   width: 60%;
   height: 20vh;
   border: 0.1px solid grey;
+  background-color: #fff;
 
   border-radius: 5px;
 
@@ -51,7 +52,6 @@
   background-image: url("https://i.pinimg.com/474x/0a/99/c1/0a99c1ae90550aa1b6949169c7266c20.jpg");
   background-size: cover;
   border-radius: 5px;
-  box-shadow: 2px 3px 4px gray;
 }
 
 .main .main__post .main__post__col1 {
@@ -64,6 +64,7 @@
   justify-content: space-between;
   padding: 0px 10px;
   border-radius: 5px;
+  border: 0.1px solid grey;
 }
 
 .col1-1 {
@@ -78,6 +79,7 @@
   height: 33px;
   margin-right: 10px;
   border-radius: 50%;
+
   background-size: cover;
   cursor: pointer;
 }
@@ -89,8 +91,6 @@
   margin-right: 10%;
   margin-left: 70%;
 
-  border: 0.1px solid grey;
-  border-radius: 5px;
   position: fixed;
 
   display: flex;
