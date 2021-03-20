@@ -29,13 +29,6 @@ app.get("/f_post", (req, res) => {
 app.get("/home", (req, res) => {
   res.render("screens/home");
 });
-<<<<<<< HEAD
-=======
-
-app.get("/my", (req, res) => {
-  res.render("./screens/my");
-});
->>>>>>> b979beb630da8708d76b423b2af376d526079cba
 
 app.get("/firend", (req, res) => {
   res.render("./screens/firend");
@@ -44,7 +37,6 @@ app.get("/firend", (req, res) => {
 app.get("/signup", (req, res) => {
   res.render("./screens/signup");
 });
-
 
 app.listen(PORT, () => {
   console.log(`🐶🐶🐶  ${PORT} SERVER START  🐶🐶🐶`);
