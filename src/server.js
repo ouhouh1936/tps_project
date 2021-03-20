@@ -31,7 +31,11 @@ app.get("/home", (req, res) => {
 });
 
 app.get("/my", (req, res) => {
+<<<<<<< HEAD
   res.render("/screens/my");
+=======
+  res.render("screens/my");
+>>>>>>> eff63f62d593d0991427e1edb075526310ebff97
 });
 
 app.get("/firend", (req, res) => {
