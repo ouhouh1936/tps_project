@@ -30,20 +30,21 @@ app.get("/home", (req, res) => {
   res.render("screens/home");
 });
 
+
 app.get("/home", (req, res) => {
   res.render("./scree/video");
 });
 
 app.get("/my", (req, res) => {
-  res.render("./screens/my");
+  res.render("screens/my");
 });
 
 app.get("/firend", (req, res) => {
-  res.render("./screens/firend");
+  res.render("screens/firend");
 });
 
 app.get("/signup", (req, res) => {
-  res.render("./screens/signup");
+  res.render("screens/signup");
 });
 
 app.listen(PORT, () => {

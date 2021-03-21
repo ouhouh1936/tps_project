@@ -1,7 +1,12 @@
+.app {
+  background-color: rgb(250, 250, 250);
+}
 .header {
   width: 100%;
-  height: 10vh;
-  background-color: #e8f7fd;
+  height: 9vh;
+  position: fixed;
+  border: 0.5px solid grey;
+  background-color: #fff;
 }
 .header_title {
   font-family: "Pacifico", cursive;
@@ -10,11 +15,11 @@
   color: #040c14;
 }
 .header .header_text {
-  width: 220px;
+  width: 250px;
   height: 30px;
   margin-top: 2%;
   margin-left: 40%;
-  border: none;
+  border: 0.5px solid grey;
   outline: none;
   border-radius: 2px;
 }
