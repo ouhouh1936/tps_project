@@ -30,6 +30,14 @@ app.get("/home", (req, res) => {
   res.render("screens/home");
 });
 
+app.get("/home", (req, res) => {
+  res.render("./scree/video");
+});
+
+app.get("/my", (req, res) => {
+  res.render("./screens/my");
+});
+
 app.get("/firend", (req, res) => {
   res.render("./screens/firend");
 });
