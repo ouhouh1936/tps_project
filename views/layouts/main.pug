@@ -14,8 +14,9 @@ html(lang="en")
     body 
 
         div.app 
-            header.header 
-                span.header_title TrendPhotoSharing
+            header.header
+                a(href="/home")
+                    span.header_title TrendPhotoSharing
                 input.header_text(type="text" autocapitalize="none" placeholder="검색")
 
             block content
