@@ -15,32 +15,34 @@ app.use(morgan("dev"));
 app.use(express.static(path.join(__dirname, "/assets")));
 connect();
 
-app.get("/", (req, res) => {
-  res.render("./layouts/main");
-});
+//박여원
 
-app.get("/signin", (req, res) => {
-  res.render("./screens/signIn");
-});
 app.get("/f_post", (req, res) => {
   res.render("./screens/f_post");
+});
+
+// 오은하
+
+app.get("/", (req, res) => {
+  res.render("./layouts/main");
 });
 
 app.get("/home", (req, res) => {
   res.render("screens/home");
 });
 
-
-app.get("/home", (req, res) => {
-  res.render("./scree/video");
-});
-
 app.get("/my", (req, res) => {
   res.render("screens/my");
 });
 
+// 노광현
+
 app.get("/firend", (req, res) => {
   res.render("screens/firend");
+});
+
+app.get("/signin", (req, res) => {
+  res.render("./screens/signIn");
 });
 
 app.get("/signup", (req, res) => {
