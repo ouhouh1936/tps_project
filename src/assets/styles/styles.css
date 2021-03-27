@@ -7,3 +7,6 @@
 @import "./f_post.css";
 @import "./firend.css";
 
+.main {
+  padding-top: 80px;
+}

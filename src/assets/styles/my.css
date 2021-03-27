@@ -1,10 +1,45 @@
 .post {
   width: 100%;
   height: 100vh;
-  background-color: blueviolet;
 }
+.post_main {
+  width: 70%;
+  height: 50%;
 
-.post_id {
-  width: 10%;
-  color: blue;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: row;
+}
+.post_col1 {
+  width: 30%;
+  height: 60%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXx9TVaNO4LYXJv-f8sytA7MCFkB40HZrRVg&usqp=CAU");
+  background-size: cover;
+
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-right: 5%;
+  border-radius: 100%;
+}
+.post_col2 {
+  width: 70%;
+  height: 100%;
+  background-color: blue;
+}
+.post_col2_col1 {
+  width: 100%;
+  height: 20%;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+}
+.post_col2_col1_col1 {
+  font-size: 40px;
+  font-weight: 600;
+  justify-content: center;
+}
+.post_col2_col1_col2 {
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
