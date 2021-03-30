@@ -1,5 +1,5 @@
 .app {
-  background-color: rgb(250, 250, 250);
+  background-color: #eee6c4;
 }
 
 .header {
@@ -30,7 +30,6 @@
 }
 
 .footer {
-  margin-top: 5%;
   width: 100%;
   height: 30vh;
   color: #b2bec3;
