@@ -17,12 +17,11 @@
 .header_title {
   font-family: "Pacifico", cursive;
   font-size: 40px;
-  margin-top: 20px;
   color: #040c14;
-  margin-left: 3%;
-  margin-top: 2%;
+
+  margin-left: 40%;
 }
-.header .header_text {
+.header_text {
   width: 250px;
   height: 30px;
   margin-top: 2%;
@@ -39,8 +38,8 @@
 
   cursor: pointer;
 }
-.fa-heart {
-  margin-left: 30%;
+.fa-user-circle {
+  margin-left: 100%;
 }
 
 .footer {
