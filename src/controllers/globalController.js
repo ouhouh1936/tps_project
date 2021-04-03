@@ -4,7 +4,6 @@ const homeController = (req, res) => {
 const myController = (req, res) => {
   res.render("screens/my");
 };
-
 const mainController = (req, res) => {
   res.render("./layouts/main");
 };
