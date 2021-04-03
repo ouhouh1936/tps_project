@@ -24,9 +24,9 @@ const signupController = (req, res) => {
 export const globalController = {
   homeController,
   myController,
-  mainController,
   f_postController,
   friendController,
   singnInController,
   signupController,
+  mainController,
 };
