@@ -12,7 +12,7 @@ const app = express();
 
 app.set("view engine", "pug");
 app.use(morgan(`dev`));
-app.use(express.static(path.join(__dirname, "/aseets")));
+app.use(express.static(path.join(__dirname, "/assets")));
 
 connect();
 

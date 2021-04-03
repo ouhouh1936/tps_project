@@ -52,6 +52,10 @@
   font-size: 20px;
   border: 0.7px solid gray;
 }
+.post_col2_col1_col3 {
+  margin-left: 10%;
+  cursor: pointer;
+}
 .post_col2_col2 {
   font-size: 20px;
 }
