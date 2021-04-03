@@ -4,6 +4,7 @@ const F_POST = "/f_post";
 const FRIEND = "/friend";
 const SIGNIN = "/signIn";
 const SIGNUP = "/signUp";
+const HEADER = "/header";
 
 export const routers = {
   HOME,
@@ -12,4 +13,5 @@ export const routers = {
   FRIEND,
   SIGNIN,
   SIGNUP,
+  HEADER,
 };
