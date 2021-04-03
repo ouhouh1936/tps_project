@@ -11,7 +11,7 @@ const f_postController = (req, res) => {
   res.render("./screens/f_post");
 };
 const friendController = (req, res) => {
-  res.render("screens/friend");
+  res.render("screens/firend");
 };
 const singnInController = (req, res) => {
   res.render("./screens/signIn");
