@@ -1,11 +1,14 @@
 const HOME = "/";
-const MY = "/my";
+const MY = "/h_post";
 const F_POST = "/f_post";
 const FRIEND = "/friend";
 const SIGNIN = "/signIn";
 const SIGNUP = "/signUp";
 const HEADER = "/header";
 const PRIVACY = "/privacy";
+
+const H_POST = "/my";
+
 
 export const routers = {
   HOME,
@@ -16,4 +19,8 @@ export const routers = {
   SIGNUP,
   HEADER,
   PRIVACY,
+
+
+  H_POST,
+
 };

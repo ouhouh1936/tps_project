@@ -24,6 +24,11 @@ const privacyController = (req, res) => {
 };
 
 
+const h_postController = (req, res) => {
+  res.render("screens/h_post");
+};
+
+
 export const globalController = {
   homeController,
   myController,
@@ -33,4 +38,7 @@ export const globalController = {
   signupController,
   mainController,
   privacyController,
+
+
+  h_postController,
 };
