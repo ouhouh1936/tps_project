@@ -13,5 +13,8 @@ globalRouter.get(routers.FRIEND, globalController.friendController);
 globalRouter.get(routers.SIGNIN, globalController.singnInController);
 globalRouter.get(routers.SIGNUP, globalController.signupController);
 globalRouter.get(routers.HEADER, globalController.mainController);
+globalRouter.get(routers.PRIVACY, globalController.privacyController);
+
+globalRouter.get(routers.H_POST, globalController.h_postController);
 
 export default globalRouter;
