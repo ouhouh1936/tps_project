@@ -19,6 +19,9 @@ const singnInController = (req, res) => {
 const signupController = (req, res) => {
   res.render("screens/signup");
 };
+const privacyController = (req, res) => {
+  res.render("screens/privacy");
+};
 
 export const globalController = {
   homeController,
