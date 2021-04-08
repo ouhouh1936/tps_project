@@ -8,7 +8,7 @@ const mainController = (req, res) => {
   res.render("./layouts/main");
 };
 const f_postController = (req, res) => {
-  res.render("./screens/f_post");
+  res.render("screens/f_post");
 };
 const friendController = (req, res) => {
   res.render("screens/friend");
