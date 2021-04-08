@@ -9,6 +9,7 @@ const PRIVACY = "/privacy";
 const F_POST = "/f_post";
 const H_POST = "/my";
 
+
 export const routers = {
   HOME,
   MY,
@@ -18,5 +19,8 @@ export const routers = {
   SIGNUP,
   HEADER,
   PRIVACY,
+
+
   H_POST,
+
 };

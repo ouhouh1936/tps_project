@@ -1,8 +1,7 @@
 import express from "express";
 import { routers } from "../routers";
 import { globalController } from "../controllers/globalController";
-import dotenv from "dotenv";
-dotenv.config();
+
 
 const globalRouter = express.Router();
 
@@ -15,6 +14,8 @@ globalRouter.get(routers.SIGNUP, globalController.signupController);
 globalRouter.get(routers.HEADER, globalController.mainController);
 globalRouter.get(routers.PRIVACY, globalController.privacyController);
 
+
 globalRouter.get(routers.H_POST, globalController.h_postController);
+
 
 export default globalRouter;
